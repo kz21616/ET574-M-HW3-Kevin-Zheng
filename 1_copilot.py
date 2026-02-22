@@ -5,6 +5,9 @@ students = ["Jon", "Kim", "Lee"]
 students.append("Sara")
 students.append("Miko")
 
+# change Jon to John
+students[0] = 'John'
+
 # function to print ‘Hi name’ for each student in the list
 # and then report how many students there are
 def greet_students(student_list):
